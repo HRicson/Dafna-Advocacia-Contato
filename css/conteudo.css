@@ -122,7 +122,8 @@ h2 {
 
 #contato ul li {
   list-style-type: none;
-  margin: 2em 1.5em;
+  margin: 1em 0.5em;
+  margin-bottom: 20px;
 }
 
 #contato ul li a {
@@ -137,6 +138,10 @@ h2 {
 #mensagem {
   margin-top: 15px;
   border-radius: 6px;
+}
+
+#mensagem-label:hover {
+  cursor: pointer;
 }
 
 #mensagem:focus {
